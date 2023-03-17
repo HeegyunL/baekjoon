@@ -1,0 +1,18 @@
+package baekjoon;
+
+import java.util.Scanner;
+
+public class Baek27866 {
+	public static void main(String[] args) {
+		int num = 0;
+		//if(num >0 && num <1001) {
+			Scanner sc = new Scanner(System.in);
+			String voca = sc.next();
+			int turn = sc.nextInt();
+			String result = voca.substring(turn-1,turn);
+			System.out.println(voca);
+			System.out.println(turn);
+			System.out.println(result);
+		//}
+	}
+}
